@@ -4,9 +4,9 @@
   "description": "",
   "main": "index.js",
   "scripts": {
-    "dev": "ts-node-dev --respawn --transpile-only src/index.ts",
-    "start": "node dist/index.js",
-    "build": "tsc",
+    "dev": "node init && ts-node-dev --respawn --transpile-only src/index.ts",
+    "start": "node init && node dist/index.js",
+    "build": "node init && tsc",
     "lint": "echo 'lint ok'",
     "test": "jest --testPathIgnorePatterns=integration --testPathIgnorePatterns=pool\\.test\\.ts --testPathIgnorePatterns=ai\\.routes\\.test\\.ts",
     "test:explain-analyze": "jest --testPathPatterns=explain-analyze --passWithNoTests",
