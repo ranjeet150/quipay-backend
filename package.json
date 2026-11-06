@@ -103,6 +103,8 @@
     "json-pointer": "^0.6.2",
     "jsonpath-plus": "^10.3.0",
     "minimist": "^1.2.8",
-    "sanitize-html": "^2.17.4"
+    "sanitize-html": "^2.17.4",
+    "handlebars": "^4.7.10",
+    "proxy-addr": "^2.0.8"
   }
 }
